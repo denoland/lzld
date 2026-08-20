@@ -73,3 +73,6 @@ dyld_info -imports <deno> | grep -E '\(from (CoreFoundation|CoreServices|Securit
 Set `LZLD_TRACE=1` at runtime to print a backtrace the first time each framework
 is forced to load — useful for finding startup call sites that defeat laziness.
 
+## Contributions
+
+Pull requests are disabled. Send a `git format-patch` attachment to [me@littledivy.com](mailto:me@littledivy.com).
